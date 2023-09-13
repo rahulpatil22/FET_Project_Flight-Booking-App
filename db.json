@@ -1,0 +1,267 @@
+{
+  "users": [
+    {
+      "name": "Alex",
+      "userName": "Alex@gmail.com",
+      "password": "Alex@1997",
+      "id": 1
+    },
+    {
+      "name": "MAx",
+      "userName": "MAx@gmail.com",
+      "password": "MAx@1996",
+      "id": 2
+    },
+    {
+      "name": "Harry",
+      "userName": "Harry@gmail.com",
+      "password": "Harry@1997",
+      "id": 3
+    },
+    {
+      "name": "John",
+      "userName": "John@cybage.com",
+      "password": "John@1997",
+      "id": 4
+    },
+    {
+      "name": "Sam",
+      "userName": "Sam@gmail.com",
+      "password": "Sam@1997",
+      "id": 5
+    },
+    {
+      "name": "Lio",
+      "userName": "Lio@gmail.com",
+      "password": "chinmay@1",
+      "id": 6
+    },
+    {
+      "name": "Jinny",
+      "userName": "cJinnyh@gmail.com",
+      "password": "cJinnyhinmay@1",
+      "id": 7
+    },
+    {
+      "name": "abc",
+      "userName": "abc@gmail.com",
+      "password": "abc@12345",
+      "id": 8
+    }
+  ],
+  "blogs": [
+    {
+      "userid": "1",
+      "category": "travel",
+      "title": "Harry",
+      "imgpath": "../BackEnd/images/cars.jpeg",
+      "text": "Blog1",
+      "timestamp": "2021-09-14T11:31:55.087Z",
+      "likes": 5,
+      "comments": [
+        {
+          "userid": "2",
+          "text": "noice blog!!!"
+        },
+        {
+          "userid": "3",
+          "text": "Noice blog!!!"
+        },
+        {
+          "userid": "4",
+          "text": "Nice blog!!!!!"
+        },
+        {
+          "userid": "5",
+          "text": "Nice Blog!!!!!"
+        },
+        {
+          "userid": "1",
+          "text": "Nice one!"
+        },
+        {
+          "userid": "1",
+          "text": "Nice one buddy!"
+        },
+        {
+          "userid": "4",
+          "text": "aaa"
+        },
+        {
+          "userid": "4",
+          "text": "Nicey"
+        }
+      ],
+      "flag": true,
+      "id": 1,
+      "likeStatus": [
+        {
+          "userId": "1"
+        },
+        {
+          "userId": "2"
+        },
+        {
+          "userId": "3"
+        },
+        {
+          "userId": "4"
+        },
+        {
+          "userId": "5"
+        }
+      ]
+    },
+    {
+      "userid": "1",
+      "category": "food",
+      "title": "Lio",
+      "imgpath": "../BackEnd/images/download.jpg",
+      "text": "Blog2",
+      "timestamp": "2021-09-14T11:32:23.401Z",
+      "likes": 0,
+      "comments": [],
+      "flag": true,
+      "likeStatus": [],
+      "id": 2
+    },
+    {
+      "userid": "1",
+      "category": "music",
+      "title": "Haryy",
+      "imgpath": "../BackEnd/images/none",
+      "text": "Blog3",
+      "timestamp": "2021-09-14T11:33:06.479Z",
+      "likes": 1,
+      "comments": [],
+      "flag": false,
+      "id": 3,
+      "likeStatus": [
+        {
+          "userId": "5"
+        }
+      ]
+    },
+    {
+      "userid": "1",
+      "category": "gaming",
+      "title": "Sam",
+      "imgpath": "../BackEnd/images/download.jpg",
+      "text": "Blog4",
+      "timestamp": "2021-09-14T11:33:35.392Z",
+      "likes": 0,
+      "comments": [],
+      "flag": true,
+      "likeStatus": [],
+      "id": 4
+    },
+    {
+      "userid": "1",
+      "category": "cars",
+      "title": "Dino",
+      "imgpath": "../BackEnd/images/download.jpg",
+      "text": "Blog5",
+      "timestamp": "2021-09-14T11:34:19.424Z",
+      "likes": 0,
+      "comments": [],
+      "flag": true,
+      "likeStatus": [],
+      "id": 5
+    },
+    {
+      "userid": "1",
+      "category": "fashion",
+      "title": "Dino",
+      "imgpath": "../BackEnd/images/none",
+      "text": "Blog6",
+      "timestamp": "2021-09-14T11:34:33.680Z",
+      "likes": 0,
+      "comments": [],
+      "flag": false,
+      "likeStatus": [],
+      "id": 6
+    },
+    {
+      "userid": "1",
+      "category": "travel",
+      "title": "Max",
+      "imgpath": "../BackEnd/images/cars.jpeg",
+      "text": "Display It!!!!!!!!!!!!",
+      "timestamp": "2021-09-14T12:26:56.065Z",
+      "likes": 1,
+      "comments": [],
+      "flag": true,
+      "id": 7,
+      "likeStatus": [
+        {
+          "userId": "1"
+        }
+      ]
+    },
+    {
+      "userid": "2",
+      "category": "food",
+      "title": "Lio",
+      "imgpath": "../BackEnd/images/download.jpg",
+      "text": "Blog7",
+      "timestamp": "2021-09-14T13:17:37.057Z",
+      "likes": 0,
+      "comments": [],
+      "flag": true,
+      "likeStatus": [],
+      "id": 8
+    },
+    {
+      "userid": "1",
+      "category": "cars",
+      "title": "Cars",
+      "imgpath": "../BackEnd/images/OIP.jfif",
+      "text": "Bugati!!!!!",
+      "timestamp": "2021-09-14T17:29:36.769Z",
+      "likes": 0,
+      "comments": [],
+      "flag": true,
+      "likeStatus": [],
+      "id": 9
+    },
+    {
+      "userid": "1",
+      "category": "travel",
+      "title": "New Blog",
+      "imgpath": "../BackEnd/images/travel.jfif",
+      "text": "Travelling Around the world!!!!!",
+      "timestamp": "2021-09-15T04:44:46.729Z",
+      "likes": 0,
+      "comments": [],
+      "flag": true,
+      "likeStatus": [],
+      "id": 10
+    },
+    {
+      "userid": "4",
+      "category": "cars",
+      "title": "New Car!!!",
+      "imgpath": "../BackEnd/images/cars.jpeg",
+      "text": "New Car blog is added!!!!!",
+      "timestamp": "2021-09-15T05:54:28.042Z",
+      "likes": 0,
+      "comments": [],
+      "flag": true,
+      "likeStatus": [],
+      "id": 11
+    },
+    {
+      "userid": "5",
+      "category": "cars",
+      "title": "New Blog 2!!!!!!!",
+      "imgpath": "../BackEnd/images/cars.jpeg",
+      "text": "Writing a new blog!!!!!",
+      "timestamp": "2021-09-15T08:35:44.518Z",
+      "likes": 0,
+      "comments": [],
+      "flag": true,
+      "likeStatus": [],
+      "id": 12
+    }
+  ]
+}

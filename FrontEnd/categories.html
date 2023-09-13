@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <script src="https://cdn.ckeditor.com/ckeditor5/29.2.0/classic/ckeditor.js"></script>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link rel="stylesheet" href="project.css" />
+        <title>Document</title>
+        
+        
+    </head>
+    <body onload="display()">
+        <div class="nav-border">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="tagname nav-link" href="home.html">BLOG it!!</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html" id="home"
+                                >Home</a
+                            >
+                        </li>
+                        <li class="nav-item" id="login">
+                            <a class="nav-link" href="login.html"
+                                >Log in</a
+                            >
+                        </li>
+                        <li class="nav-item" id="signup">
+                            <a class="nav-link" href="signup.html">Sign Up</a>
+                        </li>
+                        <li class="nav-item" id="create">
+                            <a class="nav-link" href="create.html"
+                                >Create a blog</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="categories.html"
+                                onclick="renderPosts()">Categories</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html" id="logout"
+                                >Logout</a
+                            >
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input
+                            id="searchBox"
+                            class="form-control mr-sm-2"
+                            type="search"
+                            placeholder="Search"
+                            aria-label="Search"
+                        />
+                    </form>
+                </div>
+            </nav>
+            <div><ul class="search" id="dispResult"></ul></div>
+        </div>
+        <div class="container">
+            <div class="row catContainer">
+                <div class="col-sm-4 col-4 col-md">
+                    <button
+                        type="button"
+                        class="btn btn-outline-dark catButton2"
+                        value="all"
+                    >
+                        All
+                    </button>
+                </div>
+                <div class="col-sm-4 col-4 col-md">
+                    <button
+                        type="button"
+                        class="btn btn-outline-dark catButton2"
+                        value="music"
+                    >
+                        Music
+                    </button>
+                </div>
+                <div class="col-sm-4 col-4 col-md">
+                    <button
+                        type="button"
+                        class="btn btn-outline-dark catButton2"
+                        value="food"
+                    >
+                        Food
+                    </button>
+                </div>
+                <div class="col-sm-4 col-4 col-md">
+                    <button
+                        type="button"
+                        class="btn btn-outline-dark catButton2"
+                        value="fashion"
+                    >
+                        Fashion
+                    </button>
+                </div>
+                <div class="col-sm-4 col-4 col-md">
+                    <button
+                        type="button"
+                        class="btn btn-outline-dark catButton2"
+                        value="cars"
+                    >
+                        Cars
+                    </button>
+                </div>
+                <div class="col-sm-4 col-4 col-md">
+                    <button
+                        type="button"
+                        class="btn btn-outline-dark catButton2"
+                        value="travel"
+                    >
+                        Travel
+                    </button>
+                </div>
+                <div class="col-sm-4 col-4 col-md">
+                    <button
+                        type="button"
+                        class="btn btn-outline-dark catButton2"
+                        value="gaming"
+                    >
+                        Gaming
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- category body -->
+        <div class="blogs" id="displayContainer"></div>
+        <script src="../BackEnd/scripts/search.js" ></script>
+        <script src="../BackEnd/scripts/catDemo.js" ></script>
+        <script src="../BackEnd/scripts/displayAll.js" ></script>
+        <script src="../BackEnd/scripts/like.js" ></script>
+        <script src="../BackEnd/scripts/home.js" ></script>
+        
+    </body>
+    
+
+    
+</html>

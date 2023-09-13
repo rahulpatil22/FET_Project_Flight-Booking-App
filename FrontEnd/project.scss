@@ -1,0 +1,259 @@
+$bgcolor: rgb(85, 162, 165);
+
+.login {
+    margin: 0;
+    padding: 0;
+    background-color: $bgcolor;
+    height: 100vh;
+}
+#login {
+    .container {
+        #login-row {
+            #login-column {
+                #login-box {
+                    margin-top: 200px;
+                    max-width: 600px;
+                    height: 320px;
+                    border: 1px solid #9c9c9c;
+                    background-color: #eaeaea;
+                    #login-form {
+                        padding: 20px;
+                        #register-link {
+                            margin-top: -50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.sign {
+    margin: 0;
+    padding: 0;
+    background-color: $bgcolor;
+    height: 100vh;
+}
+#sign {
+    .container {
+        #sign-row {
+            #sign-column {
+                #sign-box {
+                    margin-top: 150px;
+                    max-width: 600px;
+                    height: 480px;
+                    border: 1px solid #9c9c9c;
+                    background-color: #eaeaea;
+                    #sign-form {
+                        padding: 20px;
+                        #login-link {
+                            margin-top: -50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.navbar {
+    min-height: 80px;
+}
+.navbar-toggle {
+    /* (80px - button height 34px) / 2 = 23px */
+    margin-top: 23px;
+    padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav > li > a {
+        /* (80px - line-height of 27px) / 2 = 26.5px */
+        padding-top: 26.5px;
+        padding-bottom: 26.5px;
+        line-height: 27px;
+    }
+}
+
+.tagname {
+    font-family: "Merriweather", serif;
+    color: black;
+    font-size: 35px;
+}
+.tagname:hover {
+    color: black;
+    zoom: 120%;
+}
+.nav-border {
+    border-bottom: 5px solid white;
+    background-color: $bgcolor;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+.c1 {
+    height: 500px;
+    border-bottom: 5px solid white;
+}
+.carousel-caption {
+    padding-bottom: 12rem;
+    color: white;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+section {
+    background-color: $bgcolor;
+    border-bottom: 5px solid white;
+}
+// footer
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+
+footer {
+    font-family: "Rubik", sans-serif;
+    background: $bgcolor;
+    height: 300 !important;
+    color: white !important;
+}
+
+.container-fluid {
+    overflow: hidden;
+    //background: #262626;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+small {
+    font-size: 10px;
+}
+
+.create {
+    background-color: rgb(169, 169, 169);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 5px solid white;
+}
+.title {
+    width: 500px;
+}
+@media only screen and (max-width: 768px) {
+    .title {
+        width: 200px;
+    }
+}
+.dropdown {
+    background-color: $bgcolor;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+}
+.c2 {
+    padding-bottom: 6rem;
+    font-style: italic;
+}
+@media only screen and (max-width: 576px) {
+    .c2 {
+        padding-bottom: 2rem;
+        font-style: italic;
+    }
+}
+.cat1 {
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+}
+.search {
+    padding-left: 1300px;
+    background-color: $bgcolor;
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+    .search {
+        padding-left: 0px;
+        background-color: $bgcolor;
+    }
+}
+.cat2 {
+    width: 1000px;
+}
+.blogs {
+    background-color: $bgcolor;
+}
+.blogs2 {
+    border-bottom: 5px solid white;
+}
+.catButton {
+    padding-left: 15px;
+}
+.read {
+    color: black;
+}
+.catButton2 {
+    width: 130px;
+}
+.catContainer {
+    border-bottom: 5px solid white;
+}
+@media only screen and (max-width: 768px) {
+    .catButton2 {
+        width: 80px;
+    }
+}
+.icon {
+    float: right;
+    padding-right: 10px;
+    font-size: 50px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+.fa-likes {
+    float: right;
+    padding-right: 30px;
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+    .icon {
+        float: left;
+        padding-top: 0;
+        cursor: pointer;
+    }
+    .fa-likes {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 20px;
+        padding-top: 20px;
+        float: left;
+    }
+}
+.blogImg {
+    border: 2px solid black;
+}
+.more {
+    background-color: $bgcolor;
+    font-family: "Comic Sans MS";
+}
+.blogText {
+    width: 100%;
+    height: 150px;
+}
+@media only screen and (max-width: 768px) {
+    .blogText {
+        width: 100%;
+        height: 300px;
+    }
+}
+.blogText2 {
+    width: 100%;
+    height: 100px;
+}
+.comment {
+    padding-top: 30px;
+}
+.showComment {
+    background-color: white;
+    color: black;
+    width: 100%;
+}
